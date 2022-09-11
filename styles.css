@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+}
+
+.img-logo {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.img-celular {
+  width: 450px;
+}
+
+.imagem-slide {
+  height: 520px;
+  position: absolute;
+  left: 153px;
+  top: 26px;
+  transition: opacity 2s ease-in-out;
+}
+
+.container-imagens {
+  position: relative;
+}
+
+.container-itens {
+  width: 350px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbdbdb;
+  background: #ffff;
+  padding: 50px 40px 20px 40px;
+}
+
+input {
+  height: 36px;
+  outline: none;
+  border: 1px solid #dbdbdb;
+  background: #fafafa;
+  border-radius: 3px;
+  padding-left: 5px;
+  margin-top: 5px;
+  color: #262626;
+}
+
+button {
+  background: #0095f6;
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  color: #ffff;
+  margin-top: 20px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+
+.login-facebook {
+  color: #385185;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.esqueceu-senha {
+  color: #385185;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.container-cadastro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  border: 1px solid #dbdbdb;
+  background: #ffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.link-cadastro {
+  color: #0095f6;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.paragrafo-conta {
+  font-size: 14px;
+}
+
+.paragrafo-app {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-ou {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.container-app {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.logo-app {
+  width: 150px;
+}
