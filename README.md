@@ -1,8 +1,8 @@
 # Projeto recriando a página de login do Instagram
 
-# Prof. Rodolfo Mori
+Prof. Rodolfo Mori
 
-# Tecnologias Utilizadas:
+Tecnologias Utilizadas:
  - HTML
  - CSS
  - JavaScript
