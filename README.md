@@ -11,5 +11,5 @@ Tecnologias Utilizadas:
  
  Link: https://bruno-gac.github.io/instagram-login-page/
  ou
- https://instagram-login-page-bruno-gac.netlify.app/
+ https://insta-lgn.netlify.app/
 
